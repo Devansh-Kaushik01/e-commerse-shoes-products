@@ -1,0 +1,17 @@
+.home-page header{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+    url(../../images/homeimg.jpg);
+}
+header{
+    background-size: cover;
+    background-position: center;
+}
+
+header h1{
+    font-size: 5rem;
+}
+
+.home-page header h1,
+.home-page header h2{
+    text-shadow: 1px 1px 5px #ffffff;
+}
