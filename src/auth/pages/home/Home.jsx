@@ -25,7 +25,7 @@ function Home() {
                 we walk on
               </h1>
               <Para />
-              <div className=''>
+              <div className='d-flex gap-2'>
                 <DefaultBtn
                   btntype={'Shop Men'}
                 />
@@ -42,7 +42,7 @@ function Home() {
           <div className='col-lg-10 d-flex
             justify-content-center'>
             <h5 className='text-uppercase mt-5'>As seen in:</h5>
-            <img src={CompaniesLogo} className='img-fluid w-75 '
+            <img src={CompaniesLogo} className='img-fluid w-75 justify-content-center'
               alt='about img' />
           </div>
         </div>

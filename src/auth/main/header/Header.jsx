@@ -34,10 +34,10 @@ function Header() {
                                 {/* <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> */}
                             </form>
                             <Nav.Link href='/men' className=''>
-                                <PersonCircle />
+                                <PersonCircle size={25} />
                             </Nav.Link>
                             <Nav.Link href='/contact' className=''>
-                                <Cart />
+                                <Cart size={25} />
                             </Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
